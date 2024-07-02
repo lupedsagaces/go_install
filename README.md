@@ -13,8 +13,12 @@ This is a Python script that automates the process of installing the latest vers
 ### 1. Clone the Repository 📂
 
 ```bash
+
+1. Clone this repository: 
+
 git clone https://github.com/your-username/go-installer.git
 cd go-installer
+
 2. Install Dependencies 📦
 
 pip install -r requirements.txt
@@ -44,7 +48,6 @@ Calls the functions to get the latest version of Go, install Go, and update the 
 Contributions 🤝
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-License 📄
-This project is licensed under the MIT License - see the LICENSE file for details.
+```
 
 Made with ❤️ by lupedsagaces
