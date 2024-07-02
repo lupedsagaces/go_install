@@ -10,7 +10,6 @@ This is a Python script that automates the process of installing the latest vers
 
 ## How to Use 📖
 
-### 1. Clone the Repository 📂
 
 ```bash
 
