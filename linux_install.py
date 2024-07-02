@@ -47,9 +47,8 @@ def update_shell_config():
 
     with open(rc_file, "a") as file:
         file.write(go_path)
-        
-    # Atualiza o shell para carregar as novas configurações
-    subprocess.run(f"source {rc_file}", shell=True, check=True)    
+
+
 
 def main():
     download_url, download_file = get_latest_go_version()
