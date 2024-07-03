@@ -43,10 +43,12 @@ def update_shell_config():
     else:
         rc_file = os.path.join(home_dir, ".bashrc")
 
-    go_path = "\n# Go configuration\nexport PATH=$PATH:/usr/local/go/bin\n"
+    go_path = "\n# Go configuration\nexport PATH=$PATH:/usr/local/go/bin\nexport PATH=$PATH:~/go/bin\n"
+    
 
     with open(rc_file, "a") as file:
         file.write(go_path)
+        file.write(go)
 
 
 
