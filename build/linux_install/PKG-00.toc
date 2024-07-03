@@ -42,7 +42,7 @@
   ('linux_install',
    '/home/luciano/Desktop/go_install/linux_install.py',
    'PYSOURCE')],
- 'libpython3.11.so.1.0',
+ 'libpython3.11.so',
  True,
  False,
  False,

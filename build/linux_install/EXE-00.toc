@@ -50,8 +50,8 @@
  [],
  False,
  False,
- 1719929264,
+ 1720035890,
  [('run',
    '/usr/lib/python3/dist-packages/PyInstaller/bootloader/Linux-64bit-intel/run',
    'EXECUTABLE')],
- '/lib/x86_64-linux-gnu/libpython3.11.so.1.0')
+ '/lib/x86_64-linux-gnu/libpython3.11.so')
