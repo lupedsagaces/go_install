@@ -48,7 +48,7 @@ def update_shell_config():
 
     with open(rc_file, "a") as file:
         file.write(go_path)
-        file.write(go)
+       
 
 
 
