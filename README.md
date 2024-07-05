@@ -26,7 +26,7 @@ cd go_install
 
     2.2. Executable:
 
-    cd dist
+    cd dist/linux_install
     chmod +x linux_install
     ./linux_install
 
