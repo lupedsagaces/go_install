@@ -16,7 +16,7 @@ This is a Python script that automates the process of installing the latest vers
 1. Clone this repository: 
 
 git clone https://github.com/lupedsagaces/go_install.git
-cd go-installer
+cd go_install
 
 2. Run the python Script or execute the compiled file for Linux🚀
 
