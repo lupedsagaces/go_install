@@ -20,8 +20,12 @@ cd go_install
 
 2. Run the python Script or execute the compiled file for Linux🚀
 
-    2.1. Python script:    
+    2.1. Library lxml:    
     
+    pip install lxml
+
+    2.2. Python script:
+
     python3 install_go.py
 
     2.2. Executable:
