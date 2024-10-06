@@ -26,7 +26,7 @@ cd go_install
 
     2.2. Python script:
 
-    python3 install_go.py
+    python3 linux_install.py
 
     2.2. Executable:
 
