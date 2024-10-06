@@ -11,7 +11,6 @@ This is a Python script that automates the process of installing the latest vers
 ## How to Use 📖
 
 
-```bash
 
 1. Clone this repository: 
 
@@ -22,18 +21,18 @@ cd go_install
 
     2.1. Library lxml:    
     
-    pip install lxml
+    ```bash pip3 install lxml```
 
     2.2. Python script:
 
-    python3 linux_install.py
+    ```bash python3 linux_install.py```
 
     2.2. Executable:
-
+    ```
     cd dist/linux_install
     chmod +x linux_install
     ./linux_install
+    ```
 
-```
 
 Made with ❤️ by lupedsagaces
