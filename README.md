@@ -1,38 +1,47 @@
-# Go Installer 🐹🚀
+# Go Install 🐹🚀
+Essa ferramenta automatiza o processo de instalaçãõ da última versão do Go no linux. Possibilita a instalação e configuração no path automaticamente
 
-This is a Python script that automates the process of installing the latest version of Go on Linux. It downloads the latest version of Go, installs it, and configures the PATH in the shell automatically. 🎉
+1️⃣ Usando Python
+Pré-requisitos:
 
-## Prerequisites 🛠️
+```bash
+sudo apt install python3 python3-pip
+pip3 install requests lxml
+```
+Execução:
 
-- Python 3
-- Pip (to install dependencies)
-- Internet connection
+`python3 linux_install.py`
 
-## How to Use 📖
+Para arquitetura amd64 possui um executável em goinstall/dist/linux_install
 
+2️⃣ Usando Perl
+Pré-requisitos:
 
+```bash
+sudo apt install perl libwww-perl libhtml-tree-perl libfile-homedir-perl
+```
 
-1. Clone this repository: 
+Execução:
 
-git clone https://github.com/lupedsagaces/go_install.git
-cd go_install
+`perl go_install.pl`
 
-2. Run the python Script or execute the compiled file for Linux🚀
+📌 Este script:
 
-    2.1. Library lxml:    
-    
-    ```bash pip3 install lxml```
+Pergunta a arquitetura desejada (amd64 ou arm64)
 
-    2.2. Python script:
+Baixa a última versão para a arquitetura escolhida
 
-    ```bash python3 linux_install.py```
+Instala em /usr/local/go
 
-    2.2. Executable:
-    ```
-    cd dist/linux_install
-    chmod +x linux_install
-    ./linux_install
-    ```
+Adiciona o PATH no ~/.bashrc ou ~/.zshrc
 
+3️⃣ Verificando a instalação
+Após rodar qualquer um dos scripts:
+
+`go version`
+
+O correto é visualizar algo como, por exemplo:
+
+`go version go1.23.1 linux/amd64`
 
 Made with ❤️ by lupedsagaces
